@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
-
 import './App.css';
+import Login from './Components/Login';
 
 class App extends Component {
   render() {
@@ -18,6 +18,7 @@ class App extends Component {
             </li>
             </ul>
           </nav>
+          <Route Path="/" exact component={Login}/>
         </Router>
       </div>
     );
