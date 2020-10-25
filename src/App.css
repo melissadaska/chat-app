@@ -194,4 +194,12 @@ body {
         height: 120px;
         border-radius: 50%;
         }
+
+        .chatbox-container {
+          position: absolute;
+          bottom: 0;
+          height: 400px;
+          right: 5%;
+          width: 300px;
+          }
         
